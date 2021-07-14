@@ -64,7 +64,7 @@ h1 {
 }
 
 /* Second Part */
-.container{
+.football-profile{
   width: 1440px;
   height: 2050px;
   background-color: rgba(255, 255, 255, 1);
@@ -167,6 +167,7 @@ textarea {
   height: 150px;
 }
 .club-info {
+    
   width: 300px;
 }
 
