@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
 }
 header{
+    width: 100%;
+    
     background-color: #2D25A0;
 }
 h1{
@@ -15,11 +21,17 @@ h1{
     margin-bottom: 27px;
 }
 .football-profile{
-    width: 1440px;
+    
+    width: 100%;
     height: 677px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.first-one img{
+    height: 450px;
+    width: 500px;
+
 }
 .second-one{
     margin-right: 102px;
@@ -39,7 +51,129 @@ h1{
     height: 44px;
     
 }
+
 .changer:hover{
     transform: scale(1.5);
     transition: transform 2s ease-in-out;
 }
+.players-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 20px;
+    
+}
+.article{
+    width: 330px;
+    height: 434px;
+    margin-top: 40px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 5px;
+  }
+  .players-area img{
+    height: 300px;
+    width: 310px;
+}
+.player{
+    margin: 10px 10px;
+}
+.world-best-player{
+    margin-left: 100px;
+    margin-right: 130px;
+}
+
+.logo img{
+    margin-top: 80px;
+    margin-left: 470px;
+    margin-right: 481px;
+    width: 483px;
+    height: 110px;
+    
+
+}
+.icon{
+   
+   margin-left: 630px;
+   width: 200px;
+   padding:  0px 30px;
+   
+   
+}
+.footer{
+    margin-left: 650px;
+    width: 400;
+    
+}
+.icon-handler{
+    margin: 0px 15px;
+    
+
+}
+.Third-section{
+   
+    
+    display: flex;
+    margin: 30px 40px;
+  }
+  .half-width{
+    
+      margin-left: 100px;
+    width: 50%;
+  }
+  .half-width img{
+    width: 400px;
+  }
+  .half-width article{
+    text-align: center;
+  }
+  .best-neymar{
+    display: flex;
+    text-align: center;
+  }
+  .best-neymar img{
+    width: 300px;
+    height: 250px;
+    margin-left: 90px;
+    margin-right: 50px;
+  }
+ .three{
+     text-align: center;
+ }
+ .new-grid{
+     margin-right: 220px;
+ }
+
+/* -----------Media Queries -----------------*/
+/* Mobile Devices */
+@media only screen and (max-width:688px){
+    h1{
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+        margin-top: 112px;
+        margin-left: 40px;
+    }
+    .button{
+        margin-top: 300px;
+        margin-left: 19px;
+        padding: 10px, 24px, 10px, 24px;
+    } 
+    .first-one{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .first-one img{
+        width:329px ;
+        height: 259.17px;
+        margin-top: 374px;
+        margin-left: 344px;
+
+    }
+    
+  .players-area{
+      
+      grid-template-columns: repeat(1,1fr);
+  }
+}
+
+
+
