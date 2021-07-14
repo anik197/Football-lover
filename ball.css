@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #2D25A0;
+}
 h1{
-    color: yellow;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    height: 230px;
+    width: 485px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.football-profile{
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-one{
+    margin-right: 102px;
+    margin-left: 156px;
+}
+
+.button{
+    
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px 10px 24px;
+    line-height: 24px;
+    width: 168px;
+    height: 44px;
+    
+}
+.changer:hover{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
 }
